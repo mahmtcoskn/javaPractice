@@ -9,6 +9,8 @@ public class Ogrenci {
         -NUMARA
         -SINIF
          */
+
+
         private String ad;
         private String sAd;
         private String tcNo;

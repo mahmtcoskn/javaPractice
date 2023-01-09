@@ -7,6 +7,7 @@ import java.util.Scanner;
 
         Scanner scan=new Scanner(System.in);
         int r=0;
+
         @Override
         public void alan() {
             System.out.println("Dairenin yarıçapını giriniz: ");
