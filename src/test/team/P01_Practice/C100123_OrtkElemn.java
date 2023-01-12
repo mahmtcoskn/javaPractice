@@ -32,13 +32,13 @@ public class C100123_OrtkElemn {
         System.out.println("ortak elementler : " + list1);
 
     }
-     static ArrayList<String> listInput(ArrayList<String> list1, Scanner scan ){
-       String i=scan.nextLine();
+     static ArrayList<String> listInput(ArrayList<String> ortakEleman, Scanner scanner ){
+       String i=scanner.nextLine();
         if (!"0".equals(i)){
-            list1.add(i);
-            listInput(list1,scan);
+            ortakEleman.add(i);
+            listInput(ortakEleman,scanner);
     }
-        return list1;
+        return ortakEleman;
 }
 
 }
