@@ -111,7 +111,7 @@ public class OgretmenIslemler implements IIslemler{
                 ogrtMenu();
             }
         }
-        if (!kontrol) { // if koşulu çalışabilmesi için koşulun true olması gerekiyor. Bu yüzden kontrol değili almış olduk
+        if (!kontrol) {  // if koşulu çalışabilmesi için koşulun true olması gerekiyor. Bu yüzden kontrol değili almış olduk
             System.out.println(tcNo + " TC NOLU KİŞİ BULUNMAMAKTADIR.");
             ogrtMenu();
         }
